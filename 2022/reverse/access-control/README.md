@@ -1,7 +1,7 @@
 # Budget Crypto
 
-**Category:** Reverse
-**Difficulty:** Easy
+**Category:** Reverse\
+**Difficulty:** Easy\
 **Flag:** CS457{w3ll_th4t_w4s_34sy!}
 
 ## Source Code
