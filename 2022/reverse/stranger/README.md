@@ -1,4 +1,4 @@
-# Budget Crypto
+# Stranger
 
 **Category:** Reverse\
 **Difficulty:** Easy\
