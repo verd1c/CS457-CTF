@@ -14,6 +14,7 @@ Extract all the ASCII codes on each cmp al, <ascii byte here> to reconstruct the
 
 ## Source Code
 
+```asm
 	.file	"chall.S"
 	.intel_syntax noprefix
 	.text
@@ -108,3 +109,4 @@ main:
 	.size	main, .-main
 	.ident	"GCC: (GNU) 11.1.0"
 	.section	.note.GNU-stack,"",@progbits
+```
