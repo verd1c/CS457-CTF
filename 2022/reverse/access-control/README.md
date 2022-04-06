@@ -2,7 +2,7 @@
 
 ## Flag
 
-CS457{1_4m_n0t_g00d_4t_crypt0}
+CS457{l3t_m3_1n!!!}
 
 ## Source Code
 
