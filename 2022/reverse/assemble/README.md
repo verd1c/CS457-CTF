@@ -1,8 +1,8 @@
 # Assemble
 
-## Flag
-
-CS457{1_l0v3_x86}
+**Category:** Reverse
+**Difficulty:** Easy
+**Flag:** CS457{1_l0v3_x86}
 
 ## Description
 
