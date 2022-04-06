@@ -4,6 +4,14 @@
 
 CS457{1_4m_n0t_g00d_4t_crypt0}
 
+## Description
+
+A login system with the password encrypted in the binary.
+
+## Solve
+
+XOR the flag bytes with the key bytes to get the flag.
+
 ## Source Code
 
 ```c
@@ -32,5 +40,3 @@ int main(int argc, char **argv){
     return 0;
 }
 ```
-
-## Solve
