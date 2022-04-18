@@ -1,0 +1,38 @@
+# Good Encryption Bad Use
+
+**Category:** crypto\
+**Difficulty:** Easy\
+**Author:** johna\
+**Flag:** CS457{encrypted_0ver_rs4_s0_n0_0ne_c4n_re4d_th1s_fl4g}
+
+## Description
+
+Alice send the flag to bob over rsa but Alice don't know a lot about cryptography and used her private key to encrypt.
+
+Her public key :
+
+MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC11yT/E24kYf4zEZzZwr9lnqf6Xtxxw3OdD9fofohiW+FG4IEplNSg/kXWW/k+U4u3X9h8+no3OKfQ1y9ow2SdUglcVyptlEe7OM5TeOXWKdU3My2de3PFXVQC2vnwSo2eMIpHvv9JGCU/msIu9HEUN6kcxhgMCoQ69PsWMMIowwIDAQAB
+
+
+The encrypted message:
+
+KFEoOJk1CGSLdy+8pqY95FNis92aKK/6hJ7c6n0p45vffo2TprY7g09bKkE0IDY00OpxYXJ1FUb7bXqbxOxGxn98CSF2Y3AG2XI9DMVII2YcjchwKfcE6Klkz2x6aIbl+9KOQenIAZ4XUJEczJPo+SoEc+v/r2EArZ/tRfxE9RA=
+
+
+
+## Solve
+
+
+https://www.devglan.com/online-tools/rsa-encryption-decryption
+
+You need to decrypt the text using the public key to get the flag
+
+
+Public key :
+
+MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC11yT/E24kYf4zEZzZwr9lnqf6Xtxxw3OdD9fofohiW+FG4IEplNSg/kXWW/k+U4u3X9h8+no3OKfQ1y9ow2SdUglcVyptlEe7OM5TeOXWKdU3My2de3PFXVQC2vnwSo2eMIpHvv9JGCU/msIu9HEUN6kcxhgMCoQ69PsWMMIowwIDAQAB
+
+
+Private key :
+
+MIICdgIBADANBgkqhkiG9w0BAQEFAASCAmAwggJcAgEAAoGBALXXJP8TbiRh/jMRnNnCv2Wep/pe3HHDc50P1+h+iGJb4UbggSmU1KD+RdZb+T5Ti7df2Hz6ejc4p9DXL2jDZJ1SCVxXKm2UR7s4zlN45dYp1TczLZ17c8VdVALa+fBKjZ4wike+/0kYJT+awi70cRQ3qRzGGAwKhDr0+xYwwijDAgMBAAECgYAinQh60X0Gyex0VibwQKTkOBYrj4EQ2q6YOBrWM7fMWUcBkdykSKNM3fn3Otyv44FV75Wq/JblChDPrRZmL8Nn6ITv0ObstkxXpsynEqLA0UqQ9L/5A3nkDxQ9YRU/xTG1tEpGrW0kJlUvmr9cvI5av/ytm+YlXk6jUJAtv3bFAQJBAOisvZPKJddV0ecGtIdXmhMLWUBX5cvJZy57+pUHVJ7XPG2H2fiJORRwKDDptx3XObSi82QfzcTsjANYJDH1T4ECQQDIEdBoKlacesRrcgJ8OEiGG3leU1Towcq9av6fKQhsVWbKFvNVEMzHH1SGx+sQy/rtlMAJTaV2fniEmRv9G1pDAkArQ4N0qY/jvGdtR8flqppRlDiiSDXIcMio0hDECTro1ii8TRhwqENe04QFpE+SUuS9+9a59Vfzl/Bo5sjEKVMBAkAXn1LWGbmkPDKY5Rs6A4M8ol3QL1KlMMx5VPq/XB7se6DpV5BfiN5E3IQkbdJpZ0w3ZQrPjmVs+j3Mmi9d0S71AkEA6B/gg63LDwBzJRTVbipJn/gn2Z7/lXczCwkQ2ZH+lQF5XsVapyqESwFicziWljcYIyCL0AJcMEJOMay28RPOgA==
