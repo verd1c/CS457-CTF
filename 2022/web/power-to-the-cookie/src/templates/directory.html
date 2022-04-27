@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/static/images/dir.svg" type="image/svg+xml">
+    <title>Index of {{ path }}</title>
+    <style>
+        .parent {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            grid-template-rows: repeat(5, 1fr);
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+        }
+
+        .box {
+            grid-area: 2 / 2 / 5 / 5;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="parent">
+        <div class="box">
+            Index of {{ path }}
+            <hr style="width:300px;text-align:left;margin-left:0">
+            <pre>{{ filenames|join('\n') }}</pre>
+        </div>
+    </div>
+</body>
+
+</html>
