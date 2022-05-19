@@ -1,0 +1,2 @@
+User-agent: *
+Disallow: /wall-e.txt
